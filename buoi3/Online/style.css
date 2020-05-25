@@ -1,0 +1,72 @@
+
+.sanPham{
+    display: inline;
+    text-align: center;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hanQuoc__galleryHoaqua{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hanQuoc__hoaQua{
+    text-align: center;
+    display: inline-block;  /* làm cho các ảnh nằm cạnh nhau */
+    border-style: groove;
+    border: rgb(206, 63, 63);
+    margin: 5px;
+    padding: 5px;
+}
+.hanQuoc__hoaQua:hover{
+    text-align: center;
+    display: inline-block;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hanQuoc__hoaQua--anh{
+    overflow: hidden ; /* scale ảnh nằm gọn trong div */
+    max-width: 100%;
+    height: auto;
+    margin: 4px;
+  }
+.hanQuoc__hoaQua--chitiet{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.hanQuoc__hoaQua--thongtin{
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    color: purple;
+    font-size: larger;
+}  
+
+.hanQuoc__gia{
+    text-align: center;
+    display: inline-block;
+}
+.hanQuoc__gia:before{
+    content: "Giá"; /*thêm nội dung "giá" vào trước số tiền*/
+}
+
+.hanQuoc__muaHang{
+    text-align: center;
+    }
+.previous{
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-color: #4CAF50;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-top: auto;
+    font-size: larger;
+
+ 
+}

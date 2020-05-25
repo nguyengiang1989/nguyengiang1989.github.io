@@ -1,0 +1,37 @@
+body {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+  background-color: bisque;
+  font-family: 'Open Sans',sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+ 
+}
+h3{
+    color: #47a7d7;
+}
+.img01 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.table01 {
+  background-color: #f0f0f0;
+  color: blue;
+  padding: 1%;
+}
+.note01{
+    background-color:#F0F0F0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 1%;
+}
+
+
+
+

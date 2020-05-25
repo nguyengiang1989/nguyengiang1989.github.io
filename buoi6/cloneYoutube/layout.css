@@ -1,0 +1,29 @@
+.topnav {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: red;
+    z-index: 999;
+}
+
+.side_content{
+    display: flex;
+    margin-top: 7.5%;
+    justify-items: start;
+}
+
+.sidenavContent {
+    position: fixed;
+    width: 15%;
+    background-color: blue;
+    height: 1000px;
+    z-index: 100;
+}
+
+.content {
+    background-color: yellow;
+    height: 1000px;
+    margin-left: 16%;
+}

@@ -1,0 +1,43 @@
+/* Search Box */
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  background-color: whitesmoke;
+  z-index: 999;
+}
+
+.noidung {
+  display: flex;
+  margin-top: 7.5%;
+}
+.sidenav {
+  position: fixed;
+  width: 15%;
+  z-index: 100;
+  background-color: whitesmoke;
+}
+
+/* Grid nội dung video */
+.gridVideo {
+  margin-left: 14%;
+  width: 100%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66%;
+    padding-left: 20px;
+    
+  }
+
+ .gridItem {
+    text-align: center;
+ } 

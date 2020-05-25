@@ -1,0 +1,42 @@
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.cv {
+  background-color: #afb9cc;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+.header {
+  background-color: #afb9cc;
+  display: block;
+  margin: auto;
+}
+
+.headerItem {
+  background-color: #3471e3;
+  display: block;
+  color: cornsilk;
+}
+.anh {
+  padding-top: 10px;
+  display: block;
+  margin: auto;
+}
+.ten {
+  color: black;
+
+  text-transform: capitalize;
+  text-emphasis: 8em;
+}
+h1 {
+  display: block;
+}
+h1 {
+  display: block;
+}
+.lienhe {
+  float: left;
+  padding: 2px;
+}
