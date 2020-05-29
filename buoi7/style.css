@@ -1,0 +1,93 @@
+.topnav {
+    position: fixed;
+    display: flex;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: thin solid #e1e1e1;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,.05);
+    box-shadow: 0 10px 10px rgba(0,0,0,.05);
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.topnavButtonLeft > div {
+    margin-left: 16px;
+    background: #efeff4;
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.topnavButtonLeft > img {
+    overflow: hidden;
+}
+
+
+.topnavButtonRight>button {
+    color: #fff;
+    background: #1f9ffc;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    float: right;
+}
+
+.sidenav {
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 10%;
+    background: #fff;
+    box-shadow: 0 20px 20px rgba(0,0,0,.05);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.sidenavMenu {
+    margin-top: 0;
+    font: normal 15px/20px SF;
+    color:#333;
+    white-space: nowrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+#shareBox {
+    width: 90%;
+    overflow: hidden;
+}
+
+.shareBoxButtonRight>button {
+    color: #fff;
+    background: #1f9ffc;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-left: 20%;
+    height: auto;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.gridcontentSharebox {
+    height: 100px;
+    width: auto;
+    background-color: seashell;
+    background: #fff;
+    box-shadow: 0 20px 20px rgba(0,0,0,.05);
+    border-radius: 10px;
+    align-items: flex-end;
+}
