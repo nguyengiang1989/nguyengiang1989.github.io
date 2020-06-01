@@ -75,27 +75,23 @@
     height: auto;
 }
 
-.gridcontentSharebox { grid-area: Sharebox; }
+.grid01 { grid-area: grid01;}
 
 .newsfeedLeft { grid-area: feedLeft; }
 
-.newsfeedRight { grid-area: feedRight; }
-
-.gridcontentRight { grid-area: banner; }
+.banner { grid-area: banner; }
 
 .grid00 {
     display: grid;
     grid-template-areas:
-    'Sharebox feedRight'
-    'feedLeft banner';
+    'grid01 feedRight'
+    'grid01 banner';
     margin-top: 5%;
     margin-left: 20%;
     grid-gap: 10px;
     background-color: #e1e1e1;
     padding: 10px;
 }
-
-
 
 .gridcontentSharebox {
     height: 100px;
@@ -107,4 +103,7 @@
     align-items: flex-end;
 }
 
+.banner {
+    float: right;
+}
 
