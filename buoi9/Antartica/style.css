@@ -48,7 +48,7 @@ h2 {
     border-radius: 5px;
 }
 
-..gallery-animal > img {
+.gallery-animal > img {
     border-radius: 2px;
     border-color: paleturquoise;
 }
