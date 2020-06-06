@@ -1,29 +1,56 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+
 
 .topnav {
-    
+    position: absolute;
+    top: 3px;
+    width: 100vh;
+    text-align: center;
 }
 
 .funfact {
-
+    margin-top: 12%;
+    background-color: #c8d8e2;
+    border-bottom: 5px solid #CCC;
+    border-top: 5px solid #384045;
+    margin-bottom: 35px;
+    padding: 15px;
+    position: relative;
+    text-align: center;
 }
 
 .intro {
-
+    margin-bottom: 3%;
 }
 
 .gallery {
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    border-style: solid;
 }
 
 .gallery-animal {
-
+    text-align: center;
+    justify-items: center;
+    flex-direction: row;
+    padding: 7px;
+    background-color: #c8d8e2;
+    border-style: solid;
 }
+
+.headerText {
+    padding: 7px;
+    background-color:#66ccff;
+    border-radius: 5px;
+}
+
+..gallery-animal > img {
+    border-radius: 2px;
+    border-color: paleturquoise;
+}
+
 .gallery-animal > img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2);
 
 }
